@@ -12,7 +12,7 @@ used registers: `t0`-`t2`, `a0`-`a4`
 
 ## Usage
 - designed in the RARs IDE
-- argument is expected in register `a0`
+- pointer to the start of a numeric ascii string in memory is expected in register `a0` 
     - assumes provided argument is in Little Endian notation with the string ending in ascii value 13
 - after returning, register `a0` contains the value of the provided ascii string
 
